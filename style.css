@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+body {
+  background: #eee;
+  background-image: url("/assets/backgroundTask.webp");
+}
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+.tag-container {
+  border-radius: 3px;
+  background: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80;
+  margin: auto;
+  align-content: center;
+  padding: 6px;
+}
+.tag-container .tag {
+  height: 10px;
+  margin: 5px;
+  padding: 5px 6px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background: #328efd;
+  display: flex;
+  align-items: center;
+  color: #333;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 1px 1px #fff;
+  cursor: default;
+}
+.tag i {
+  font-style: normal;
+  font-size: 12px;
+  color: #666;
+  margin-left: 5px;
+}
+.tag-container input {
+  padding: 5px;
+  font-size: 16px;
+  border: 0;
+  outline: none;
+  font-family: 'Rubik';
+  color: #333;
+  flex: 1;
+}
+.headText{
+    text-align: center;
+    color: #328efd;
+    font-size: 5em;
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 500;
+}
+.aboutText{
+    font-size: 3em;
+    color: #636363;
+    font-family: Source Sans Pro,sans-serif;
+    font-weight: 1000;
+    text-align: center;
+
+}
